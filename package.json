@@ -13,5 +13,13 @@
     "MySQL"
   ],
   "author": "Indra Damar Jati <Indra2108@github>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
