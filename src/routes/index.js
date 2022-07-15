@@ -1,16 +1,20 @@
+const responseUrl = require("../handler/responseURL")
+const sendUrlHandler = require("../handler/sendUrlHandler")
+
 module.exports = [
     {
         method: 'GET',
         path: '/',
-        handler: () => {
-            return 'Hallo World'
-        }
+        handler: () => 'hello world'
+    },
+    {
+        method: 'POST',
+        path: '/sendurl',
+        handler: sendUrlHandler
     },
     {
         method: 'GET',
-        path: '/{any*}',
-        handler: () => {
-            return 'Nyasar mank'
-        }
-    }
+        path: '/{userparam}',
+        handler: responseUrl
+    },
 ]
