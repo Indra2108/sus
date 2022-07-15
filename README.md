@@ -10,9 +10,10 @@ Simple URL Shortener build with HapiJS and SequelizeORM(MySQL).
 - [ ] More features coming soon...
 
 ## To-Do
-- [ ] API: Make it more stable & secure until.
+- [ ] API: Make it more stable & secure.
 - [ ] API: User can custom number of digits of customURL.
-- [ ] Documentation: Make it more readable.
+- [ ] Documentation: Easy to read and folow.
+- [ ] Documentation: Guide for Deploy the project
 
 ## Getting started
 
@@ -47,6 +48,19 @@ Simple URL Shortener build with HapiJS and SequelizeORM(MySQL).
   ```
   npx sequelize-cli db:create
   ```
+
+- Create Table
+  - Go to directory `src/dbconfig/models/index.js`
+  - Uncomment the line 37
+    ```js
+    sequelize.sync({ force: true })
+    ```
+  - run `node src/dbconfig/models/index.js`
+  - Comment the line 37
+    ```js
+    // sequelize.sync({ force: true })
+    ```
+  - run `npm test`
 
 ## API Documentation
 
