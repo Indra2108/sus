@@ -26,12 +26,6 @@ const sendUrlHandler = async (request, h) => {
                 message: 'Custom URL already use!'
             }).code(404)
         }
-        if (customURLDB.customURL) {
-            return h.response({
-                status: 'fail',
-                message: 'Custom URL already use!'
-            }).code(404)
-        }
 
         if (!customURL) {
 
