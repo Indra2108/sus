@@ -2,7 +2,17 @@
 
 Simple URL Shortener build with HapiJS and SequelizeORM(MySQL)
 
-*For documentation, usage and more, coming soon...*
+**Note: this API is still in alpha stage.**
+
+## Features
+- [x] Custom URL
+- [x] Random Generate URL
+- [ ] More features coming soon...
+
+## To-Do
+- [ ] API: Make it more stable & secure
+- [ ] API: User can custom number of digits of customURL
+- [ ] Documentation: Make it more readable
 
 ## Getting started
 
@@ -37,7 +47,7 @@ Simple URL Shortener build with HapiJS and SequelizeORM(MySQL)
   ```
   npx sequelize-cli db:create
   ```
-## Documentation
+## API Documentation
 
 Base URL: `http://localhost:3000`
 
@@ -54,17 +64,31 @@ Base URL: `http://localhost:3000`
       "customURL": "<USER-COSTUMIZED-URL-STRING>"
     }
     ```
-  - Example
+  - Example:
     ```json
     {
       "originalURL": "https://developer.mozilla.org/en-US/",
       "customURL": "mdn"
     }
     ```
+    ```json
+    {
+      "originalURL": "https://developer.mozilla.org/en-US/",
+      "customURL": "" // server will automatically random generate the URL, if you fill this blank
+    }
+    ```
 
-
-
-
+- **[GET]** `/:params`
+  - Description: User insert customURL to get redirected to the website. 
+  - Request type: `params`
+  - Example:
+    ```
+    http://localhost:3000/mdn
+    ```
+    ```
+    http://localhost:3000/KH0cm
+    ```
+    *example above if you previously leave the customURL blank*
 
 
 
