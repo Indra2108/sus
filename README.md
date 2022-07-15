@@ -65,7 +65,11 @@ Base URL: `http://localhost:3000`
       "customURL": "<USER-COSTUMIZED-URL-STRING>"
     }
     ```
-  - Example:
+  - Endpoint example: 
+    ```
+    http://localhost:3000/sendurl
+    ```
+  - Request body example:
     ```json
     {
       "originalURL": "https://developer.mozilla.org/en-US/",
