@@ -1,5 +1,5 @@
 {
-  "name": "SUS",
+  "name": "sus",
   "version": "0.0.1-alpha",
   "description": "SUS - Simple URL Shortener",
   "main": "server.js",
