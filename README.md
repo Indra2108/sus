@@ -1,26 +1,26 @@
 # SUS - Simple URL Shortener
 
-Simple URL Shortener build with HapiJS and SequelizeORM(MySQL)
+Simple URL Shortener build with HapiJS and SequelizeORM(MySQL).
 
-**Note: this API is still in alpha stage.**
+***Note: this API is still in alpha stage. this project is just for hobbyist.***
 
 ## Features
-- [x] Custom URL
-- [x] Random Generate URL
+- [x] Custom URL.
+- [x] Random Generate URL.
 - [ ] More features coming soon...
 
 ## To-Do
-- [ ] API: Make it more stable & secure
-- [ ] API: User can custom number of digits of customURL
-- [ ] Documentation: Make it more readable
+- [ ] API: Make it more stable & secure until.
+- [ ] API: User can custom number of digits of customURL.
+- [ ] Documentation: Make it more readable.
 
 ## Getting started
 
 - Before start
   - Make sure you have MySQL installed in your operating system.
   - Optional: 
-    - [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) or [DBeaver](https://dbeaver.io/download/) - MySQL Client
-    - [Insomnia](https://insomnia.rest/download) or [Postman](https://www.postman.com/downloads/?utm_source=postman-home) - API Client
+    - [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) or [DBeaver](https://dbeaver.io/download/) - MySQL Client.
+    - [Insomnia](https://insomnia.rest/download) or [Postman](https://www.postman.com/downloads/?utm_source=postman-home) - API Client.
 - Clone Repo
     ```
     git clone https://github.com/Indra2108/sus.git
@@ -31,7 +31,7 @@ Simple URL Shortener build with HapiJS and SequelizeORM(MySQL)
   ```
   sudo systemctl start mysqld
   ```
-  make sure if `mysqld` running correctly with `systemctl status mysqld`
+  make sure if `mysqld` running correctly with `systemctl status mysqld`.
   ```
   [indra@fedora ~]$ systemctl status mysqld
   ● mysqld.service - MySQL 8.0 database server
@@ -47,6 +47,7 @@ Simple URL Shortener build with HapiJS and SequelizeORM(MySQL)
   ```
   npx sequelize-cli db:create
   ```
+
 ## API Documentation
 
 Base URL: `http://localhost:3000`
@@ -88,7 +89,7 @@ Base URL: `http://localhost:3000`
     ```
     http://localhost:3000/KH0cm
     ```
-    *example above if you previously leave the customURL blank*
+    *example above if you previously leave the customURL blank.*
 
 
 
