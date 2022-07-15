@@ -109,7 +109,4 @@ Base URL: `http://localhost:3000`
     ```
     *example above if you previously leave the customURL blank.*
 
-
-
-
-
+2022 - Indra Damar Jati <Indra2108@github>
