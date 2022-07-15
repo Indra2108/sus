@@ -70,8 +70,8 @@ Base URL: `http://localhost:3000`
   - Description: Client send JSON. User can custom their originalURL in customURL. *if you fill blank on customURL, the server will automatically random generate the URL*.
   - Request body type: `JSON`
   - Request body value: 
-    - `originalURL`: type: <string>, allowNull: **false**
-    - `customURL`: type: <string>, allowNull: **true**
+    - `originalURL`: type: `string`, allowNull: **false**
+    - `customURL`: type: `string`, allowNull: **true**
   - Request body: 
     ```json
     {
