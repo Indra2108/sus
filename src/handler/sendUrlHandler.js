@@ -14,6 +14,12 @@ const sendUrlHandler = async (request, h) => {
 
         const customURLDB = await UserURL.findOne({ where: { customURL } })
 
+        if (!originalURL) {
+            return {
+                message: 'originalURL must be filled'
+            }
+        }
+
         if (customURLDB) {
             return h.response({
                 status: 'fail',
