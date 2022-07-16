@@ -11,9 +11,15 @@ Simple URL Shortener build with HapiJS and SequelizeORM(MySQL).
 
 ## To-Do
 - [ ] API: Make it more stable & secure.
+  - [ ] Rewrite to TypeScript: Reduce bugs and improve security
+  - [ ] Add Joi for validation
+  - [ ] Unit Test
 - [ ] API: User can custom number of digits of customURL.
 - [ ] Documentation: Easy to read and folow.
 - [ ] Documentation: Guide for Deploy the project
+
+## Roadmap
+- Jul 16: First Launching!
 
 ## Getting started
 
@@ -105,8 +111,7 @@ Base URL: `http://localhost:3000`
     http://localhost:3000/mdn
     ```
     ```
-    http://localhost:3000/KH0cm
+    http://localhost:3000/KH0cm // if you previously leave the customURL blank.
     ```
-    *example above if you previously leave the customURL blank.*
 
-2022 - Indra Damar Jati <Indra2108@github>
+2022 - Indra Damar Jati [Indra2108@github]('https://github.com/Indra2108)
