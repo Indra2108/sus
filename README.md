@@ -1,6 +1,6 @@
 # SUS - Simple URL Shortener
 
-Simple URL Shortener build with HapiJS and SequelizeORM(MySQL).
+Simple URL Shortener built with [Hapi](https://hapi.dev/) and [Sequelize](https://sequelize.org/) (MySQL).
 
 ***Note: this API is still in alpha stage. this project is just for hobbyist.***
 
@@ -11,12 +11,13 @@ Simple URL Shortener build with HapiJS and SequelizeORM(MySQL).
 
 ## To-Do
 - [ ] API: Make it more stable & secure.
-  - [ ] Rewrite to TypeScript: Reduce bugs and improve security
-  - [ ] Add Joi for validation
-  - [ ] Unit Test
+  - [ ] Rewrite to TypeScript: Reduce bugs and improve security.
+  - [ ] Object schema validation.
+  - [ ] Unit Test.
 - [ ] API: User can custom number of digits of customURL.
-- [ ] Documentation: Easy to read and folow.
-- [ ] Documentation: Guide for Deploy the project
+- [ ] Frontend: Add sus-frontend.
+- [ ] Documentation: Easy to read and follow.
+- [ ] Documentation: Guide for Deploying project.
 
 ## Roadmap
 - Jul 16: First Launching!
