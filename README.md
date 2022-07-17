@@ -13,13 +13,16 @@ Simple URL Shortener built with [Hapi](https://hapi.dev/) and [Sequelize](https:
 - [ ] API: Make it more stable & secure.
   - [ ] Rewrite to TypeScript: Reduce bugs and improve security.
   - [ ] Object schema validation.
-  - [ ] Unit Test.
+  - [ ] Unit Test (use lab)
 - [ ] API: User can custom number of digits of customURL.
-- [ ] Frontend: Add sus-frontend.
+- [ ] API: Follow RESTful API principle/standard
+- [ ] Frontend: Add sus-client-frontend.
+- [ ] Frontend: Add sus-admin-dashboard.
+- [ ] Frontend: Using PaperCSS
 - [ ] Documentation: Easy to read and follow.
 - [ ] Documentation: Guide for Deploying project.
 
-## Roadmap
+## News
 - Jul 16: First Launching!
 
 ## Getting started
